@@ -10,6 +10,9 @@ function squareroot(){
        else if(isNaN(a)){
         throw "Error! The input is not an integer"
        }
+       else if(a.trim() == ""){
+        throw "Error!"
+       }
        else{
         throw ""
        }
